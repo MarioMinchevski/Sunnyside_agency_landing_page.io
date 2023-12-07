@@ -1,0 +1,55 @@
+@use 'sass:math';
+
+@function rem-calc($size) {
+    @return (math.div($size, 16)) * 1rem;
+}
+
+// Font settings
+
+$font-family-base: 'Barlow', sans-serif;
+$font-family-secondary: 'Fraunces', serif;
+
+// font weight 
+
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// font size
+$font-size-base: rem-calc(18);
+$font-size-medium: rem-calc(16);
+$font-size-small: rem-calc(15);
+$font-size-smaller: rem-calc(14);
+
+// headings size
+
+$font-size-headidng-main: rem-calc(56);
+$font-size-headidng-main-small: rem-calc(40);
+
+$font-size-subheading-base: rem-calc(40);
+$font-size-subheading-small: rem-calc(32);
+
+$font-size-headidng-medium: rem-calc(28);
+$font-size-headidng-small: rem-calc(20);
+$font-size-headidng-smaller: rem-calc(16);
+
+// Color settings
+
+$color-base: #24303E;
+$color-base-secondary: #FFFFFF;
+$color-base-tertiary: #FEFBF8;
+
+$color-neutral-primary: #808397;
+$color-neutral-secondary: #A7AAAD;
+$color-neutral-tertiary: #5B636D;
+
+$color-primary: #FBD600;
+$color-secondary: #90D4C6;
+$color-tertiary: #24554A;
+$color-quintary: #FE7766;
+$color-quinary: #052C3B;
+$color-senary: #19536C;
+$color-septenary: #458D7E;
+
+
+// Size settings
